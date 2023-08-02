@@ -29,30 +29,23 @@
         <div class="navigation-button">
           <!-- child 2 of first div -->
 
-          <div>Home</div>
-          <div>About</div>
-          <div>Contact</div>
-          <div>Blog</div>
-          <div>Careers</div>
+          <button class="menu-btn">
+            <div class="menu-icon"></div>
+          </button>
+          <nav class="navigation">
+            <div>Home</div>
+            <div>About</div>
+            <div>Contact</div>
+            <div>Blog</div>
+            <div>Careers</div>
+          </nav>
         </div>
 
         <!-- child 3 of first div -->
 
         <div>
-          <button
-            style="
-              display: block;
-              border-radius: 50px;
-              width: 100%;
-              background-image: linear-gradient(
-                to right,
-                hsl(136, 65%, 51%),
-                hsl(192, 70%, 51%)
-              );
-              padding: 16px;
-            "
-          >
-            <h3 style="color: #eefffe; margin: auto">Request Invite</h3>
+          <button class="button-1">
+            <h3 class="button-text-1">Request Invite</h3>
           </button>
         </div>
       </div>
@@ -65,7 +58,7 @@
           <div><h1>Next generation digital banking</h1></div>
 
           <div>
-            <p style="color: #9c9da1">
+            <p class="section-paragraph">
               Take your financial life online. Your Easybank account will be a
               one-stop-shop for spending, saving, budgeting, investing, and much
               more.
@@ -73,20 +66,7 @@
           </div>
 
           <div>
-            <button
-              style="
-                display: block;
-                border-radius: 50px;
-                width: 50%;
-                height: 50px;
-                background-image: linear-gradient(
-                  to right,
-                  hsl(136, 65%, 51%),
-                  hsl(192, 70%, 51%)
-                );
-                padding-right: 16px;
-              "
-            >
+            <button class="section-button">
               <h3 style="color: #eefffe; margin: auto">Request Invite</h3>
             </button>
           </div>
@@ -185,109 +165,118 @@
       </div>
 
       <!-- 4th Div -->
-      <div class="article">
+      <div class="article-container">
         <!-- child 1 of fouth div -->
         <div class="article-title"><h1>Latest Articles</h1></div>
 
         <!-- child 2 of fouth div -->
-        <div class="article-images">
-          <img
-            src="images/image-currency.jpg"
-            alt="image-currency"
-            class="image-currency"
-          />
 
-          <img
-            src="images/image-restaurant.jpg"
-            alt="image-restaurant"
-            class="image-restaurant"
-          />
-
-          <img
-            src="images/image-plane.jpg"
-            alt="image-plane"
-            class="image-plane"
-          />
-
-          <img
-            src="images/image-confetti.jpg"
-            alt="image-confetti"
-            class="image-confetti"
-          />
-        </div>
-
-        <!-- child 3 of fouth div -->
-
-        <div class="article-content">
-          <div class="article-content-1">
-            <div>
-              <p style="color: #9c9da1; white-space: pre-line">
-                By Claire Robinson
-              </p>
+        <div class="article-box">
+          <div class="article-body">
+            <div class="article-img-container">
+              <img
+                class="article-img"
+                src="images/image-currency.jpg"
+                alt="image-currency"
+              />
             </div>
-            <div class="hoverable-element">
-              <h3>Receive money in any currency with no fees</h3>
-            </div>
-            <div>
-              <p style="color: #9c9da1; white-space: pre-line">
-                The world is getting smaller and we’re becoming more mobile. So
-                why should you be forced to only receive money in a single …
-              </p>
+            <div class="article-content">
+              <div>
+                <p style="color: #9c9da1; white-space: pre-line">
+                  By Claire Robinson
+                </p>
+              </div>
+              <div class="hoverable-element">
+                <h3>Receive money in any currency with no fees</h3>
+              </div>
+              <div>
+                <p style="color: #9c9da1; white-space: pre-line">
+                  The world is getting smaller and we’re becoming more mobile.
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="article-content-2">
-            <div>
-              <p style="color: #9c9da1; white-space: pre-line">
-                By Wilson Hutton
-              </p>
+          <div class="article-body">
+            <div class="article-img-container">
+              <img
+                src="images/image-restaurant.jpg"
+                alt="image-restaurant"
+                class="article-img"
+              />
             </div>
-            <div class="hoverable-element">
-              <h3>Treat yourself without worrying about money</h3>
-            </div>
-            <div>
-              <p style="color: #9c9da1; white-space: pre-line">
-                Our simple budgeting feature allows you to separate out your
-                spending and set realistic limits each month. That means you …
-              </p>
-            </div>
-          </div>
-
-          <div class="article-content-3">
-            <div>
-              <p style="color: #9c9da1; white-space: pre-line">
-                By Wilson Hutton
-              </p>
-            </div>
-            <div class="hoverable-element">
-              <h3>Take your Easybank card wherever you go</h3>
-            </div>
-
-            <div>
-              <p style="color: #9c9da1; white-space: pre-line">
-                We want you to enjoy your travels. This is why we don’t charge
-                any fees on purchases while you’re abroad. We’ll even show you …
-              </p>
+            <div class="article-content">
+              <div>
+                <p style="color: #9c9da1; white-space: pre-line">
+                  By Wilson Hutton
+                </p>
+              </div>
+              <div class="hoverable-element">
+                <h3>Treat yourself without worrying about money</h3>
+              </div>
+              <div>
+                <p style="color: #9c9da1; white-space: pre-line">
+                  Our simple budgeting feature allows you to separate out your
+                  spending and set realistic limits each month. That means you …
+                </p>
+              </div>
             </div>
           </div>
 
-          <div class="article-content-4">
-            <div>
-              <p style="color: #9c9da1; white-space: pre-line">
-                By Claire Robinson
-              </p>
+          <div class="article-body">
+            <div class="article-img-container">
+              <img
+                src="images/image-plane.jpg"
+                alt="image-plane"
+                class="article-img"
+              />
             </div>
+            <div class="article-content">
+              <div>
+                <p style="color: #9c9da1; white-space: pre-line">
+                  By Wilson Hutton
+                </p>
+              </div>
+              <div class="hoverable-element">
+                <h3>Take your Easybank card wherever you go</h3>
+              </div>
 
-            <div class="hoverable-element">
-              <h3>Our invite-only Beta accounts are now live!</h3>
+              <div>
+                <p style="color: #9c9da1; white-space: pre-line">
+                  We want you to enjoy your travels. This is why we don’t charge
+                  any fees on purchases while you’re abroad. We’ll even show you
+                  …
+                </p>
+              </div>
             </div>
+          </div>
 
-            <div>
-              <p style="color: #9c9da1; white-space: pre-line">
-                After a lot of hard work by the whole team, we’re excited to
-                launch our closed beta. It’s easy to request an invite through
-                the site ...
-              </p>
+          <div class="article-body">
+            <div class="article-img-container">
+              <img
+                src="images/image-confetti.jpg"
+                alt="image-confetti"
+                class="article-img"
+              />
+            </div>
+            <div class="article-content">
+              <div>
+                <p style="color: #9c9da1; white-space: pre-line">
+                  By Claire Robinson
+                </p>
+              </div>
+
+              <div class="hoverable-element">
+                <h3>Our invite-only Beta accounts are now live!</h3>
+              </div>
+
+              <div>
+                <p style="color: #9c9da1; white-space: pre-line">
+                  After a lot of hard work by the whole team, we’re excited to
+                  launch our closed beta. It’s easy to request an invite through
+                  the site ...
+                </p>
+              </div>
             </div>
           </div>
         </div>
