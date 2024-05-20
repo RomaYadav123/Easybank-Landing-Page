@@ -11,6 +11,10 @@ HTML5, CSS, JS
 #Project Deployment;
 [Click here to visit the EasyBank Landing Page](https://easybank-landing-page-cyan-two.vercel.app/)
 
+##Vercel Deployment: 
+[Easybank landing page](https://easybank-landing-page-xr205kyfn-romayadav123.vercel.app)
+
+
 
 
 
